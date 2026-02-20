@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Dancing_Script, Playpen_Sans } from "next/font/google";
 import "./globals.css";
 import MusicPlayer from "./components/MusicPlayer";
@@ -16,7 +17,7 @@ const playpenSans = Playpen_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Thanh & Partner - Wedding Invitation",
+  title: "Thanh & Huyen - Wedding Invitation",
   description: "Join us in celebrating our special day.",
 };
 

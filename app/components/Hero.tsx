@@ -8,7 +8,7 @@ export default function Hero() {
         {/* Desktop Image */}
         <div className={styles.desktopImage}>
           <Image
-            src="/143A9265 20X30.jpg"
+            src="/143A9767.jpg"
             alt="Wedding Background Desktop"
             fill
             priority

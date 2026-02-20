@@ -58,7 +58,7 @@ export default function Home() {
           opacity: 0.7,
         }}
       >
-        <p>&copy; 2026 Thanh & Partner. Can&apos;t wait to see you!</p>
+        <p>&copy; 2026 Thanh & Huyen. Can&apos;t wait to see you!</p>
       </footer>
     </main>
   );
