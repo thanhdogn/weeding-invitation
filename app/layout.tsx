@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Dancing_Script, Playpen_Sans } from "next/font/google";
 import "./globals.css";
 import MusicPlayer from "./components/MusicPlayer";
+import WebQR from "./components/WebQR";
 
 const lavishlyYours = Dancing_Script({
   weight: "400",
@@ -46,6 +47,7 @@ export default function RootLayout({
       <body className={`${lavishlyYours.variable} ${playpenSans.variable}`}>
         {children}
         <MusicPlayer />
+        <WebQR />
       </body>
     </html>
   );
