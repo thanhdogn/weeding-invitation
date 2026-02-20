@@ -19,6 +19,9 @@ const playpenSans = Playpen_Sans({
 export const metadata: Metadata = {
   title: "Thanh & Huyen - Wedding Invitation",
   description: "Join us in celebrating our special day.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
