@@ -1,0 +1,88 @@
+.container {
+  padding: 5rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading {
+  font-family: var(--font-lavishly-yours);
+  font-size: 3.5rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.intro {
+  font-family: var(--font-playpen-sans);
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+  border: 1px solid rgba(194, 24, 7, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qrWrapper {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+
+.qrImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.bankName {
+  font-family: var(--font-playpen-sans);
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.accountName {
+  font-family: var(--font-story-script);
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+  
+  .accountName {
+    font-size: 1.5rem;
+  }
+  
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}

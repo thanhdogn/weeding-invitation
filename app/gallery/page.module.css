@@ -1,0 +1,75 @@
+.container {
+  padding: 2rem;
+  background: white;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-family: var(--font-lavishly-yours);
+  font-size: 2.4rem;
+  color: var(--primary);
+  margin-top: 1rem;
+}
+
+.subtitle {
+  font-family: var(--font-montserrat);
+  color: #666;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+  text-decoration: none;
+  font-family: var(--font-montserrat);
+  transition: color 0.3s;
+}
+
+.backLink:hover {
+  color: var(--primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.photoItem {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  /* Aspect ratio hack if needed, but flexbox/grid handles it ok. 
+     Images might be different sizes, using Masonry is hard without lib. 
+     Simple grid for now. */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.photoItem:hover .image {
+  transform: scale(1.05);
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.footerText {
+  margin-top: 1rem;
+  font-family: var(--font-montserrat);
+  color: #888;
+}

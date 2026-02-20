@@ -1,0 +1,60 @@
+.container {
+  padding: 4rem 2rem;
+  background-color: var(--secondary);
+  color: var(--foreground);
+  text-align: center;
+}
+
+.heading {
+  font-family: var(--font-lavishly-yours);
+  font-size: 2.4rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.timerGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-playpen-sans);
+}
+
+.timeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.separator {
+  font-size: 2rem;
+  color: var(--primary);
+  padding-bottom: 1.5rem; /* Align with numbers roughly */
+}
+
+@media (max-width: 600px) {
+  .timerGrid {
+    gap: 0.5rem;
+  }
+  .number {
+    font-size: 1.5rem;
+  }
+  .min-width {
+    min-width: 50px;
+  }
+}

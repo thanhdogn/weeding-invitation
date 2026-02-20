@@ -1,0 +1,73 @@
+.container {
+  padding: 5rem 2rem;
+  background-color: var(--secondary);
+  text-align: center;
+}
+
+.heading {
+  font-family: var(--font-lavishly-yours);
+  font-size: 2.4rem;
+  color: var(--primary);
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px; /* Wider card for better map view */
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.subheading {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.time {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.location {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.address {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.mapContainer {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
